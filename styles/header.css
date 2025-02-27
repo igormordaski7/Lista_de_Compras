@@ -1,0 +1,28 @@
+header .top {
+    max-width: 80rem;
+    width: 100%;
+    margin-inline: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Isso garante que a div ocupe o espaço necessário */
+
+    margin-top: 1.5625rem;
+}
+
+header .logo img {
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse os limites */
+    height: auto;
+}
+
+header .back{
+    display: flex;
+    justify-content: center;
+}
