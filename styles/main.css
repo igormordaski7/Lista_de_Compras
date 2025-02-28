@@ -1,0 +1,16 @@
+main{
+    max-width: 80rem;
+    width: 100%;
+    margin-inline: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.add-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
