@@ -13,9 +13,10 @@
 }
 
 @media (width < 80em) {
-    .logo img {
+    .logo {
         display: none;
     }
+
 }
 
 
