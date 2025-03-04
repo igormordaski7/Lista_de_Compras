@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header class="top">
-        <div class="logo">
-            <img src="assets/images/logo.svg" alt="">
-        </div>
+    
+    <div class="logo">
+        <img src="assets/images/logo.svg" alt="">
+    </div>
 
-        <div class="back">
-            <img src="assets/icons/back.svg" alt="">
-        </div>
-    </header>
-
+    
     <main>
-        <h1>Compras da semana</h1>
-        <div class="add-item">
+        <div class="main-container">
+            <div class="back">
+                <a href="">
+                <img src="assets/icons/back.svg" alt="">
+                </a>
+            </div>
+            
+                <h1>Compras da semana</h1>
+
+            <div class="add-item">   
                 <input type="text" id="itemInput" placeholder="Adicione um novo item">
-                <button type="button">Adicionar item</button>
+                <button type="button" id="add-button">Adicionar item</button>
+            </div>
+
+            <ul id="product-add">
+                
+            </ul>
+            
+            <div id="alertRemoveItem">
+    
+            </div>
         </div>
+
+
     </main>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
