@@ -32,6 +32,7 @@ main h1{
     margin-right: 12px; 
     
     margin-bottom: 40px;
+    font: var(--label);
 }
 
 .add-item input:hover {
@@ -67,5 +68,27 @@ main h1{
 
 .add-item button:hover{
     background-color: var(--color-brand-hover);
+}
+
+@media (width < 80em){
+    .main-container{
+        display: flex;
+        align-items: left;
+        
+        width: 326px;
+
+    }
+
+    .add-item input{
+        width: 326px;
+        font: var(--label);
+        margin-bottom: 1rem;
+    }
+
+    .add-item button{
+        width: 326px;
+        margin-bottom: 40px;
+    }
+
 }
 

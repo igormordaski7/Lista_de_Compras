@@ -71,3 +71,17 @@
     width: 547px;
     height: 20px;
 }
+
+@media (width < 80em) {
+
+    .newItens{
+        width: 327px;
+        height: 57px;
+
+    }
+
+    .alertRemoveItens {
+        width: 327px;
+        height: 44px;
+    }
+}
