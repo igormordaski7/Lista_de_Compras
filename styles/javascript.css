@@ -16,6 +16,22 @@
     cursor: pointer;
     }
 
+    .check {
+        width: 16px; /* Ajuste o tamanho conforme necessário */
+        height: 16px;
+        background-image: url(../assets/icons/radio-default.svg);
+        background-size: cover;
+        cursor: pointer;
+    }
+    
+    .check:hover {
+        background-image: url(../assets/icons/radio-hover.svg);
+    }
+    
+    .check.selected {
+        background-image: url(../assets/icons/radio-select.svg);
+    }
+    
 .textInput{
     border: none;
     outline: none;

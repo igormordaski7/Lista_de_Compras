@@ -34,6 +34,15 @@ main h1{
     margin-bottom: 40px;
 }
 
+.add-item input:hover {
+    border: 2px solid var(--border-hover);
+}
+
+.add-item input:focus {
+    border-color: var(--color-brand);
+    outline: none;
+}
+
 .add-item input::placeholder{
     color: var(--content-tertiary);
     text-align: left;
@@ -53,6 +62,7 @@ main h1{
     border: none;
 
     cursor: pointer;
+    outline: none;
 }
 
 .add-item button:hover{
